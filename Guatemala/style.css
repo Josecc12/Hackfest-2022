@@ -1,0 +1,337 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+*{
+    
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: "Poppins",sans-serif;
+    
+}
+
+
+/*desde aca*/
+body{
+    background-color: #4B778D;
+}
+
+.container{
+    float: left;
+    width: 35%;
+    background: #D2E69C;
+    min-height: 300px;
+    margin: 2.5%;
+    border: solid #D2E69C 15px;
+}
+
+.content{
+    float: left;
+    width: 57.5%;
+    background: #28B5B5;
+    margin-top: 2.5%;
+    margin-bottom: 2.5%;
+    margin-right: 2.5%;
+    border: solid #28B5B5 15px;
+    text-align: center;
+}
+
+.card{
+    position: relative;
+    width: 300;
+    height: 350px;
+}
+
+.card .face{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: .5s;
+}
+
+.card .front {
+    transform: perspective(600px) rotateY(0deg);
+    box-shadow: 0 5px 10px #000000;
+}
+
+.card .front img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.card .front h2{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 45px;
+    line-height: 45px;
+    color: #fff;
+    background: rgba(0, 0, 0, .4);
+    text-align: center;
+}
+
+.card .back{
+    transform: perspective(600px) rotateY(180deg);
+    background: rgb(3, 35, 54);
+    padding: 15px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    box-shadow: 0 5px 10px #000000;
+}
+
+.card .back .link{
+    border-top: solid 1px white;
+    height: 50px;
+    line-height: 50px;
+}
+
+.card .back .link a{
+    color: white;
+}
+
+.card .back h3{
+    font-size: 30px;
+    margin-top: 20px;
+    letter-spacing: 2px;
+}
+
+.card .back p{
+    letter-spacing: 1px;
+}
+
+.card:active .front{
+    transform: perspective(600px) rotateY(180deg);
+}
+
+.card:active .back{
+    transform: perspective(600px) rotateY(360deg);
+}
+
+.clearfix{
+    clear:both;
+}
+
+svg path{
+    fill: #00394f;
+    stroke: #eee;
+    stroke-width: .25;
+}
+
+svg path:hover{
+    fill: #8FD9A8;
+    transition: 0.6s;
+    cursor: pointer;
+}
+
+/*hasta aca*/
+
+.menu{
+    background-color: #8FD9A8;
+    height: 80px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 5px 0 10px rgba(143, 217, 168, 0.6);
+}
+
+
+.logo{
+    color: white;
+    font-size: 35px;
+    padding: 0 80px 0 25px;
+    font-weight: bold;
+}
+
+
+.menu-items{
+    display: flex;
+    list-style: none;
+    margin-right: 30px;
+}
+
+.menu-items li{
+    border-radius: 10px;
+    margin: 0px 5px;
+}
+
+.menu-items li a{
+    padding: 7px;
+    text-decoration: none;
+    font-size: 18px;
+    display: block;
+    color: white;
+}
+
+.menu-items li:hover{
+    background-color: #B1BCE6;
+    transition: 0.4s;
+}
+
+.menu-btn{
+    margin-right: 30px;
+    font-size: 25px;
+    color: white;
+    cursor: pointer;
+    display: none;
+}
+
+ul.display{
+    top: 65px;
+}
+
+
+.conteiner{
+    margin: 30px 0px 0px 30px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 20px;
+}
+
+.info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+
+.conteiner .info h2{
+    color: white;
+    font-size: 64px;
+    font-weight: 700px;
+}
+
+.conteiner .info p{
+    color: white;
+    text-align: justify;
+}
+
+.conteiner .info a{
+    width: 140px;
+    display: inline-block;
+    margin-top: 30px;
+    padding: 8px 20px;
+    background: white;
+    color: #333;
+    border-radius: 40px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    text-decoration: none;
+
+}
+
+.info{
+    grid-column: 1/2;
+}
+
+.img{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img img{
+    max-width: 100%;
+}
+
+
+
+@media  (max-width: 992px){
+    .logo{
+        font-size: 30px;
+        padding-left: 35px;
+    }
+
+    .menu-items li a{
+        font-size: 16px;
+    }
+
+    .info{
+        grid-column: 1/3;
+    }
+    
+
+    .img{
+        grid-column: 1/3;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .img img{
+        max-width: 100%;
+        padding: 30px;
+    }
+
+
+    .conteiner .info a{
+        margin-top: 10px;
+    }
+
+    .conteiner .info p{
+        padding-right: 40px;
+    }
+}
+
+
+
+@media(max-width: 858px) {
+
+
+    
+
+    .menu{
+        height: 65px;
+    }
+
+    .menu-btn{
+        display: inline-flex;
+    }
+
+    .menu-items{
+        position: fixed;
+        width: 100vw;
+        height: calc(100% - 65px);
+        background-color: #414141;
+        top: -100vh;
+        text-align: center;
+        transition: all 0.4s;
+        flex-direction: column;
+    }
+
+    .menu-items li{
+        margin: 30px 0 0 0;
+        line-height: 30px;
+    }
+
+    .menu-items li:hover{
+        background: none;
+    }
+
+    .menu-items li a{
+        font-size: 20px;
+        color: white;
+        font-weight: bold;
+    }
+
+    .menu-items li a:hover{
+        color: #4B778D;
+    }
+
+    .logo{
+        font-size: 25px;
+        padding-left: 35px;
+    }
+
+
+    
+}
