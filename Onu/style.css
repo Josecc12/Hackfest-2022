@@ -10,16 +10,17 @@
 }
 
 body{
-    background-color: #99c4c8;
+    background-color: white;
 }
 
-.img{
-    min-height: 100vh;
+.header{
+    min-height: 50vh;
     width: 100%;
     background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(../Onu/src/onu.jpg);
     background-position: center;
     background-size: cover;
     position: relativeS;
+    
 }
 
 .menu{
@@ -76,38 +77,66 @@ ul.display{
     top: 65px;
 }
 
-.text-box{
-    
-    width: 90%;
+
+.header h1{
+    margin-top: 150px;
     color: #fff;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
+    text-align: center;
+    font-size: 50px;
+}
+.header p{
+    color: white;
     text-align: center;
 }
 
-.text-box h1{
-    font-size: 62px;
+
+/* CONTENIDO SOBRE EL OBJETIVO*/
+.about-onu{
+    width: 80%;
+    margin: auto;
+    padding-top: 80px;
+    padding-bottom: 50px;
+}
+.about-obj{
+    flex-basis: 48%;
+    padding: 30px 2px;
 }
 
-.text-box p{
-    margin: 10px 0 40px;
-    font-size: 14px;
-    color: #fff;
+.about-obj img{
+    width: 50%;
+    margin-left: 200px;
+}
+
+.about-obj h1{
+    padding-top: 0;
+
+}
+
+.about-obj p{
+    padding: 15px 0 25PX;
+}
+
+.row{
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
 }
 
 .obj-btn{
     display: inline-block;
     text-decoration: none;
-    color: white;
-    border: 1px solid #fff;
+    color: black;
+    border: 1px solid black;
     padding: 12px 35px;
     font-size: 13px;
     background: transparent;
     position: relative;
     cursor: pointer;
 }
+
+
+
+/* -------------------------------*/
 
 @media(max-width: 992){
     .logo{
