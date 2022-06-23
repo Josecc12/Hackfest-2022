@@ -7,6 +7,7 @@ This project is made based on the three principal web development languages:
 - JavaScript
 
 Therefore, it is made without the use of *Frameworks* nor *CMS (Content Management System)*, which means that it is made only using the basic structure of the named languages.
+
 This web site presents the theme “/#” based on the *#3rd goal* of the **12 United Nations sustainable development goals**.
 Likewise, this site is made on a non-profit basis, for informational purposes only and using royalty-free content.  
 
