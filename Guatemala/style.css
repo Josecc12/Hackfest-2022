@@ -17,7 +17,7 @@ body{
     background-color: #4B778D;
 }
 
-.container{
+.containermap{
     float: left;
     width: 35%;
     background: #D2E69C;
@@ -25,7 +25,9 @@ body{
     margin: 2.5%;
     border: solid #D2E69C 15px;
 }
-
+.container{
+    
+}
 .content{
     float: left;
     width: 57.5%;
