@@ -1,0 +1,221 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body{
+    background-color: white;
+}
+
+.header{
+    min-height: 50vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(../Onu/src/onu.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relativeS;    
+}
+
+.menu{
+    background-color: #92B4EC;
+    height: 80px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 5px 0 10px rgba(143, 217, 168, 0.6);
+}
+
+.logo{
+    color: white;
+    font-size: 35px;
+    padding: 0 80px 0 25px;
+    font-weight: bold;
+}
+
+.menu-items{
+  display: flex;
+  list-style: none;
+  margin-right: 30px;
+}
+
+.menu-items li{
+    border-radius: 10px;
+    margin: 0px 5px;
+}
+
+.menu-items li a{
+    padding: 7px;
+    text-decoration: none;
+    font-size: 18px;
+    display: block;
+    color: white;
+}
+
+
+.menu-items li:hover{
+    background-color: #B1BCE6;
+    transition: 0.4s;
+}
+
+.menu-btn{
+    margin-right: 30px;
+    font-size: 25px;
+    color: white;
+    cursor: pointer;
+    display: none;
+}
+
+ul.display{
+    top: 65px;
+}
+
+
+.header h1{
+    margin-top: 100px;
+    color: #fff;
+    text-align: center;
+    font-size: 50px;
+}
+.header p{
+    color: white;
+    text-align: center;
+}
+
+
+/* CONTENIDO SOBRE EL OBJETIVO*/
+.about-onu{
+    width: 80%;
+    margin: auto;
+    padding-top: 80px;
+    padding-bottom: 50px;
+}
+.about-obj{
+    flex-basis: 48%;
+    padding: 30px 2px;
+}
+
+.about-obj img{
+    width: 50%;
+    margin-left: 200px;
+}
+
+.about-obj h1{
+    padding-top: 0;
+
+}
+
+.about-obj p{
+    padding: 15px 0 25PX;
+}
+
+.row{
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.obj-btn{
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    border: 1px solid black;
+    padding: 12px 35px;
+    font-size: 13px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+}
+
+.about-onu2{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+
+    flex-basis: 31%;
+    background: #fff3f3;
+    padding:20px ;
+    margin-bottom: 100px;
+}
+
+/* -------------------------------*/
+
+@media(max-width: 992){
+    .logo{
+        font-size: 30px;
+        padding-left: 35px;
+    }
+
+    .menu-items li a{
+        font-size: 16px;
+    }
+}
+
+
+@media(max-width: 858px){
+
+    .menu{
+        height: 65px;
+    }
+
+    .menu-btn{
+        display: inline-flex;
+    }
+
+    .menu-items{
+        position: fixed;
+        width: 100vw;
+        height: 100vh;
+        background: #414141;
+        top: -100vh;
+        text-align: center;
+        transition: all 0.4s;
+        flex-direction: column;
+    }
+
+    .menu-items li{
+        margin: 30px 0 0 0;
+        line-height: 30px;
+    }
+
+    .menu-items li:hover{
+        background: none;
+    }
+
+    .menu-items li a{
+        font-size: 20px;
+        color: white;
+        font-weight: bold;
+    }
+    .menu-items li a:hover{
+       color: #4B778D; 
+
+    }
+    .logo{
+        font-size: 25px;
+        padding-left: 35px;
+    }
+
+    .header h1{
+        margin-top: 50px;
+    }
+
+
+    .row{
+        flex-direction: column;
+    }
+
+    .about-obj img{
+        width: 50%;
+        margin-left: 50px;
+    }
+
+}
+

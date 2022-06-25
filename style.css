@@ -107,7 +107,6 @@ ul.display{
     font-weight: 500;
     letter-spacing: 1px;
     text-decoration: none;
-
 }
 
 .info{
@@ -228,9 +227,6 @@ footer{
 
 @media(max-width: 858px) {
 
-
-    
-
     .menu{
         height: 65px;
     }
@@ -273,8 +269,6 @@ footer{
         font-size: 25px;
         padding-left: 35px;
     }
-
-
     
 }
 
