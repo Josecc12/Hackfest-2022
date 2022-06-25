@@ -19,8 +19,7 @@ body{
     background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(../Onu/src/onu.jpg);
     background-position: center;
     background-size: cover;
-    position: relativeS;
-    
+    position: relativeS;    
 }
 
 .menu{
@@ -79,7 +78,7 @@ ul.display{
 
 
 .header h1{
-    margin-top: 150px;
+    margin-top: 100px;
     color: #fff;
     text-align: center;
     font-size: 50px;
@@ -134,7 +133,17 @@ ul.display{
     cursor: pointer;
 }
 
+.about-onu2{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
 
+    flex-basis: 31%;
+    background: #fff3f3;
+    padding:20px ;
+    margin-bottom: 100px;
+}
 
 /* -------------------------------*/
 
@@ -147,7 +156,6 @@ ul.display{
     .menu-items li a{
         font-size: 16px;
     }
-
 }
 
 
@@ -194,5 +202,20 @@ ul.display{
         font-size: 25px;
         padding-left: 35px;
     }
+
+    .header h1{
+        margin-top: 50px;
+    }
+
+
+    .row{
+        flex-direction: column;
+    }
+
+    .about-obj img{
+        width: 50%;
+        margin-left: 50px;
+    }
+
 }
 
