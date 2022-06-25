@@ -15,10 +15,14 @@
 body{
     background-color: #4B778D;
 }
-
 .container{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 20px;
+}
+.containermap{
     float: left;
-    width: 35%;
+    width: 80%;
     background: #D2E69C;
     min-height: 300px;
     margin: 2.5%;
@@ -27,7 +31,7 @@ body{
 
 .content{
     float: left;
-    width: 57.5%;
+    width: 80%;
     background: #28B5B5;
     margin-top: 2.5%;
     margin-bottom: 2.5%;
