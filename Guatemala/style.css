@@ -11,13 +11,12 @@
     
 }
 
-
 /*desde aca*/
 body{
     background-color: #4B778D;
 }
 
-.containermap{
+.container{
     float: left;
     width: 35%;
     background: #D2E69C;
@@ -25,9 +24,7 @@ body{
     margin: 2.5%;
     border: solid #D2E69C 15px;
 }
-.container{
-    
-}
+
 .content{
     float: left;
     width: 57.5%;
@@ -55,30 +52,8 @@ body{
     transition: .5s;
 }
 
-.card .front {
-    transform: perspective(600px) rotateX(0deg);
-    box-shadow: 0 5px 10px #000000;
-}
-
-.card .front img{
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-}
-
-.card .front h2{
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    height: 45px;
-    line-height: 45px;
-    color: #fff;
-    background: rgba(0, 0, 0, .4);
-    text-align: center;
-}
-
-.card .back{
-    transform: perspective(600px) rotateX(180deg);
+.card {
+    transform: perspective(600px) rotateX(0);
     background: rgb(3, 35, 54);
     padding: 15px;
     color: white;
@@ -88,32 +63,24 @@ body{
     box-shadow: 0 5px 10px #000000;
 }
 
-.card .back .link{
+.card .link{
     border-top: solid 1px white;
     height: 50px;
     line-height: 50px;
 }
 
-.card .back .link a{
+.card .link a{
     color: white;
 }
 
-.card .back h3{
+.card h3{
     font-size: 30px;
     margin-top: 20px;
     letter-spacing: 2px;
 }
 
-.card .back p{
+.card p{
     letter-spacing: 1px;
-}
-
-.card:hover .front{
-    transform: perspective(600px) rotateX(180deg);
-}
-
-.card:hover .back{
-    transform: perspective(600px) rotateX(360deg);
 }
 
 .clearfix{
@@ -134,8 +101,9 @@ svg path:hover{
 
 /*hasta aca*/
 
+
 .menu{
-    background-color: #8FD9A8;
+    background-color: #92B4EC;
     height: 80px;
     width: 100%;
     display: flex;
@@ -288,9 +256,6 @@ ul.display{
 
 @media(max-width: 858px) {
 
-
-    
-
     .menu{
         height: 65px;
     }
@@ -334,6 +299,4 @@ ul.display{
         padding-left: 35px;
     }
 
-
-    
 }
