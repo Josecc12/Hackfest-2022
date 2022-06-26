@@ -8,7 +8,7 @@ This project is made based on the three principal web development languages:
 
 Therefore, it is made without the use of *Frameworks* nor *CMS (Content Management System)*, which means that it is made only using the basic structure of the named languages.
 
-This web site presents the theme “Health in Guatemala's territory” based on the *#3rd goal* of the **17 United Nations sustainable development goals**.
+This web site presents the theme ***“Health in Guatemala's territory”*** based on the *#3rd goal* of the **17 United Nations sustainable development goals**.
 Likewise, this site is made on a non-profit basis, for informational purposes only and using royalty-free content.  
 
 ___
@@ -23,5 +23,5 @@ El presente proyecto está realizado a base de los tres principales lenguajes de
 
 Del mismo modo, se ha realizado sin hacer uso de *Frameworks* ni *CMS (Content Management System)*, haciendo uso únicamente de las estructuras básicas de los lenguajes mencionados.
 
-Esta página web presenta el tema “Salud en el territorio Guatemalteco” basado en el *objetivo #3 (“Salud y Bienestar”)* basado en los **17 Objetivos de Desarrollo Sostenible de las Naciones Unidas.** 
+Esta página web presenta el tema ***“Salud en el territorio Guatemalteco”*** basado en el *objetivo #3 (“Salud y Bienestar”)* basado en los **17 Objetivos de Desarrollo Sostenible de las Naciones Unidas.** 
 La presente página se desarrolla sin fines lucrativos, únicamente con un fin informativo y utilizando contenido libre de derechos de autor. 
