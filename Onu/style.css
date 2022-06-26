@@ -154,7 +154,6 @@ footer{
     margin-top: 10px;
     background-color: #548CA8;
     height: auto;
-    width: 100vw;
     padding-top: 20px;
     color: white;
 
@@ -184,7 +183,6 @@ footer{
 
 .footer-bottom{
     background-color: #476072;
-    width: 100vw;
     padding: 20px 0;
     text-align: center;
 }
