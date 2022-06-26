@@ -112,7 +112,8 @@ ul.display{
 }
 
 .about-obj p{
-    padding: 15px 0 25PX;
+    padding: 15px 0 25px;
+    text-align: justify;
 }
 
 .row{
@@ -134,7 +135,7 @@ ul.display{
 }
 
 .about-onu2{
-    width: 80%;
+    width: 100%;
     margin: auto;
     text-align: center;
     padding-top: 100px;
